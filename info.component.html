@@ -1,0 +1,68 @@
+<form #i= "ngForm" (ngSubmit)="updateInfo1(i)">
+    <div class="">
+        <input type="text" name="location" value="" ngModel>
+        <button type="submit" name="button">Add student info</button>
+    </div>
+</form>
+
+<pre></pre>
+<button type="button" name="button"(click)="getInfoFromService1()">Click to view info of PTstudent1</button>
+<ul class="list-group">
+    <li *ngFor ="let info of infoReceived1" class="list-group-info">{{info}}</li>
+</ul>
+<pre></pre>
+
+<form #s = "ngForm" (ngSubmit)="updateInfo2(s)">
+    <div class="">
+        <input type="text" name="location" value="" ngModel>
+        <button type="submit" name="button">Add student info</button>
+    </div>
+</form>
+<pre></pre>
+<button type="button" name="button"(click)="getInfoFromService2()">Click to view info of PTstudent2</button>
+<ul class="list-group">
+    <li *ngFor ="let info of infoReceived2" class="list-group-info">{{info}}</li>
+</ul>
+<pre></pre>
+<form #a = "ngForm" (ngSubmit)="updateInfo3(a)">
+    <div class="">
+        <input type="text" name="location" value="" ngModel>
+        <button type="submit" name="button">Add student info</button>
+    </div>
+</form>
+<pre></pre>
+<button type="button" name="button"(click)="getInfoFromService3()">Click to view info of PTstudent3</button>
+<ul class="list-group">
+    <li *ngFor ="let info of infoReceived3" class="list-group-info">{{info}}</li>
+</ul>
+
+<form #c = "ngForm" (ngSubmit)="updateInfo4(c)">
+    <div class="">
+        <input type="text" name="location" value="" ngModel>
+        <button type="submit" name="button">Add student info</button>
+    </div>
+</form>
+<pre></pre>
+<button type="button" name="button"(click)="getInfoFromService4()">Click to view info of PTstudent4</button>
+<ul class="list-group">
+    <li *ngFor ="let info of infoReceived4" class="list-group-info">{{info}}</li>
+</ul>
+
+<form #k = "ngForm" (ngSubmit)="updateInfo5(k)">
+    <div class="">
+        <input type="text" name="location" value="" ngModel>
+        <button type="submit" name="button">Add student info</button>
+    </div>
+</form>
+<pre></pre>
+<button type="button" name="button"(click)="getInfoFromService5()">Click to view info of PTstudent5</button>
+<ul class="list-group">
+    <li *ngFor ="let info of infoReceived5" class="list-group-info">{{info}}</li>
+</ul>
+
+
+
+
+
+
+
